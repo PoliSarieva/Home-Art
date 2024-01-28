@@ -4,9 +4,9 @@
 <div id="about">
     <div class="light-wrapper">
         <div class="container inner">
-        <li><?php the_archive_title(); ?></li>
+            <li><?php the_archive_title(); ?></li>
             <div class="row">
-
+This is AUTHOR
             <?php if ( have_posts() ) : ?>
                 <?php while( have_posts() ) : the_post(); ?>
                 <div class="col-sm-8">
