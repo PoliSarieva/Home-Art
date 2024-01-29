@@ -19,7 +19,6 @@ function my_load_scripts($hook) {
     wp_enqueue_script( 'bootstrap-min', get_template_directory_uri() . '/js/bootstrap.min.js', array(),'1.0.0' );
     wp_enqueue_script( 'jquery-1.10.2', get_template_directory_uri() . '/js/jquery-1.10.2.js', array(),'1.0.0', $args );
     wp_enqueue_script( 'jquery-parallax-1.1.3', get_template_directory_uri() . '/js/jquery.parallax-1.1.3.js', array(),'1.0.0', $args );
-    wp_enqueue_script( 'app', get_template_directory_uri() . '/js/app.js', array(),'1.0.0', $args );
 	
     wp_enqueue_style( 'bootstrap.css', 	get_template_directory_uri() . '/css/bootstrap.css', false,   '1.0.0' );
     wp_enqueue_style( 'bootstrap-min.css', 	get_template_directory_uri() . '/css/bootstrap.min.css', false,   '1.0.0' );

@@ -2,7 +2,7 @@
         <!-- Full Page Image Header Area -->
         <div id="top" class="header">
             <div class="vert-text parallax">
-                <h1 class="header-text">Travel the world</h1>
+                <h1 class="header-text">HOME ART</h1>
                 <h3 class="header-text">
                     <em class="header-text">So we are here to guide you</em>
                 </h3><br />
