@@ -17,7 +17,15 @@
 
     <body <?php body_class(); ?>>
         <!-- Side Menu -->
-            <ul class="topnav">
+        <?php
+        wp_nav_menu(array(
+            'menu'           => 'primary-menu',
+            'theme_location' => 'primary_menu',
+            'menu_class'     => 'topnav',
+        ));
+        ?>
+
+            <!-- <ul class="topnav">
                 <li class="navigation">
                     <a href="index.html">Traveller's</a>
                 </li>
@@ -33,7 +41,7 @@
                 <li class="navigation">
                     <a href="#contact">Контакти</a>
                 </li>
-            </ul>
+            </ul> -->
         <!-- /Side Menu -->
 
         

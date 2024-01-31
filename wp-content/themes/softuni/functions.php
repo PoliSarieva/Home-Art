@@ -29,3 +29,55 @@ function my_load_scripts($hook) {
 
 }
 add_action('wp_enqueue_scripts', 'my_load_scripts');
+
+/**
+ * Register our navigation menus
+ * 
+ * @return void
+ */
+
+function softuni_register_nav_menus() {
+    register_nav_menus(
+        array(
+        'primary_menu'          => __( 'Primary Menu', 'softuni' ),
+        'footer_menu_site_info' => __( 'Footer Menu Site Info', 'softuni' ),
+        'company_info'          => __( 'Company info', 'softuni' ),
+        )
+    );
+}
+    add_action( 'after_setup_theme', 'softuni_register_nav_menus' );
+
+
+    /**
+     * Sidebar here
+     * 
+     * @return void
+     */
+    
+function softuni_sidebars() {
+    register_sidebar(
+        array(
+            'id'            => 'footer-1',
+            'name'          => __( 'Footer 01' ),
+            'description'   => __( 'A short description of the sidebar.' ),
+            'before_widget' => '<div id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h3 class="widget-title">',
+            'after_title'   => '</h3>',
+        )
+    );
+
+    register_sidebar(
+        array(
+            'id'            => 'footer-2',
+            'name'          => __( 'Footer 02' ),
+            'description'   => __( 'A short description of the sidebar.' ),
+            'before_widget' => '<div id="%1$s" class="widget %2$s">',
+            'after_widget'  => '</div>',
+            'before_title'  => '<h3 class="widget-title">',
+            'after_title'   => '</h3>',
+        )
+    );
+}
+
+add_action( 'widgets_init', 'softuni_sidebars' );

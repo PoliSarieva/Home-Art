@@ -63,6 +63,10 @@ border-radius: 4px;
   vertical-align: middle;
   text-align: center;
 }
+
+.text-right {
+  text-align: right;
+}
 .main-title{
   font-family: 'Lobster', cursive;
   font-size: 45px;
@@ -913,3 +917,5 @@ i.scroll:hover {
   color: #fff;
   background-color: rgb(22,68,94);
 }
+
+/*Custom footer style
