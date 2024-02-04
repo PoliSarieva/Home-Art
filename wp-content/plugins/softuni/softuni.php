@@ -17,4 +17,6 @@ https://www.gnu.org/licenses/gpl-2.0.html
 */
 
 include 'includes/cpt-moss.php';
+include 'includes/cpt-product.php';
 include 'includes/functions.php';
+
