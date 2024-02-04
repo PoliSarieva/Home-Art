@@ -816,8 +816,8 @@ figure.effect-zoe:hover p.icon-links a:first-child {
 
 footer {
   padding: 100px 0;
-  background:url(../img/sky.jpg);
-  height: 330px;
+  /*background:url(../img/sky.jpg);*/
+  height: 10px;
   margin-top: -20px;
 }
 
@@ -918,4 +918,9 @@ i.scroll:hover {
   background-color: rgb(22,68,94);
 }
 
-/*Custom footer style
+/*Custom style*/
+
+.pagination {
+  text-align:center;
+  padding-left: 145px;
+}

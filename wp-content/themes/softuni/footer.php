@@ -23,15 +23,13 @@
         <div class="col-md-6 col-md-offset-3 text-center">
             <hr>
             <p>Copyright &copy; <a href="https://themewagon.com/">Themewagon</a>  2014</p>
-            <div class="top-scroll">
-                <a href="#top"><i class="fa fa-arrow-circle-up scroll"></i></a>
-            </div>
+            
         </div>
     </div>
 </footer>
-        <!-- /Footer -->
 
     <?php wp_footer(); ?>
  
-    </body>
-    </html>
+</body>
+</html>
+ <!-- /Footer -->
